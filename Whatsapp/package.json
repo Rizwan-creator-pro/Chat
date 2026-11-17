@@ -1,0 +1,31 @@
+{
+  "name": "whatsapp-apex-api",
+  "version": "2.0.0",
+  "description": "WhatsApp Multi-Sender & Parallel Messaging Gateway for Oracle APEX",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@whiskeysockets/baileys": "^7.0.0-rc14",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "multer": "^2.5.0",
+    "pino": "^10.4.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "winston": "^3.19.0"
+  },
+  "keywords": [
+    "whatsapp",
+    "apex",
+    "oracle-apex",
+    "multi-sender",
+    "parallel",
+    "anti-ban"
+  ],
+  "author": "",
+  "license": "MIT"
+}

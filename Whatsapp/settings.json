@@ -1,0 +1,8 @@
+{
+  "delaySeconds": 6,
+  "delayJitter": 1,
+  "maxPerHour": 600,
+  "enableTyping": true,
+  "typingSeconds": 2,
+  "enableSpintax": true
+}
